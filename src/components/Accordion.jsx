@@ -10,7 +10,7 @@ const Accordion = () => {
 
   const accordionData = [
     {
-      title: "What is Next.js?",
+      title: "Anshuma",
       blurb: [
         "Next.js is a React Framework that makes Server-Side Rendering (SSR), Static Site Generation (SSG), and Client-Side Rendering (CSR) easy. It provides SEO-friendly, fast performance, and full-stack capabilities.",
       ],
