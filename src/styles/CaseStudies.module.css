@@ -1,0 +1,55 @@
+.outerWrap {
+  border-top: 1px solid black;
+}
+.outerWrap .hoverImg::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.touch-device .outerWrap .hoverImg {
+  clip-path: circle(100% at 50% 50%);
+}
+
+.outerWrap .hoverImg {
+  clip-path: circle(0 at 50% 50%);
+  transition: all 0.4s ease-in-out;
+}
+.outerWrap:hover .hoverImg {
+  clip-path: circle(100% at 50% 50%);
+  transition: all 0.6s ease-in-out;
+}
+.outerWrap .defaultLogo {
+  opacity: 1;
+  transition-duration: 0.7s;
+}
+.outerWrap .hoverLogo {
+  display: none;
+  opacity: 0;
+  transition-duration: 0.7s;
+}
+.outerWrap:hover .defaultLogo {
+  display: none;
+  opacity: 0;
+}
+.outerWrap:hover .hoverLogo {
+  display: block;
+  opacity: 1;
+}
+.outerWrap .introWrap h4 {
+  transition-duration: 0.7s;
+}
+.outerWrap .introWrap p {
+  transition-duration: 0.7s;
+}
+.outerWrap:hover .introWrap h4 {
+  color: white;
+}
+.outerWrap:hover .introWrap p {
+  color: white;
+}

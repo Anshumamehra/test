@@ -1,0 +1,140 @@
+.Detail {
+  background: linear-gradient(
+    360deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(113, 197, 232, 0.15) 60.5%
+  );
+}
+
+.Overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.62);
+  transition: opacity 0.3s ease;
+  z-index: 9999;
+}
+
+.Overlay.active {
+  display: block;
+}
+
+.ActiveImgWrap img {
+  border-radius: 30px;
+}
+
+.introWrap span {
+  color: #003b5c;
+}
+
+.introWrap h2 {
+  color: #1f1f1f;
+}
+
+.introWrap p {
+  color: #1f1f1f;
+}
+
+.CardWrap .TitleWrap h3 {
+  color: #faf9f6;
+}
+
+.CardWrap .TitleWrap p {
+  color: #faf9f6;
+}
+
+.CardWrap .CardContent {
+  box-shadow: 0px 4px 25px 0px rgba(91, 91, 91, 0.15);
+}
+
+.CardWrap .CardContent .CardItem {
+  padding-bottom: 20px;
+}
+
+.CardWrap .CardContent .CardItem p {
+  padding-top: 10px;
+}
+
+.CardWrap .CardContent .CardItem:last-child {
+  padding-bottom: 0;
+}
+
+.ImgInner img {
+  box-shadow: 0px 4px 25px 0px rgba(91, 91, 91, 0.15);
+  border-radius: 30px;
+  border: 1px solid #dae1e9;
+}
+
+.RightContent a svg path {
+  transition: all 0.3s ease-in-out;
+}
+
+.RightContent a:hover svg path {
+  fill: #71cc98;
+}
+
+.RightContent ul li a {
+  transition: all 0.3s ease-in-out;
+}
+
+.RightContent ul li a:hover {
+  color: #71cc98;
+}
+
+.RightContent h6 {
+  color: #1f1f1f;
+}
+
+.card .ImgWrap img {
+  border-radius: 30px;
+}
+
+.Detail .card p {
+  color: #fff;
+}
+
+.card .ImgWrap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 59, 92, 0) -60.82%,
+    #003b5c 95.75%
+  );
+}
+
+.Detail .cardWhite {
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 4px 25px 0px rgba(91, 91, 91, 0.15);
+}
+
+.Detail .cardWhite .ImgWrap {
+  display: none;
+}
+
+.Detail .cardWhite h5 {
+  color: #1f1f1f;
+}
+
+.Detail .cardWhite p {
+  color: #1f1f1f;
+}
+
+.Detail .cardWhite a {
+  color: #1f1f1f;
+}
+
+.ImgInner .overlayBtn img {
+  border: none;
+  box-shadow: none;
+}

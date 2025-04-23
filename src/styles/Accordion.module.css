@@ -1,0 +1,28 @@
+.accordionItem:last-child {
+  margin-bottom: 0;
+}
+.noBorder {
+  border-bottom: none;
+}
+.title .arrow {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.title.active .arrow {
+  transform: rotate(-135deg);
+}
+.panel p {
+  padding-top: 30px;
+}
+
+.panel p:last-child {
+  padding-bottom: 0;
+}

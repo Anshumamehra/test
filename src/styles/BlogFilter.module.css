@@ -1,0 +1,184 @@
+.BlogFilter {
+  overflow: visible;
+  font-family: "Nunito", sans-serif;
+}
+
+.navWrapper {
+  position: relative;
+}
+
+.tableTitle {
+  background-color: #333;
+  border-radius: 5px;
+  padding: 9px 18px;
+  /* width: 265px; */
+  cursor: pointer;
+  position: relative;
+}
+
+.tableTitle:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 22px;
+  width: 9px;
+  height: 9px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: translateY(-50%) rotate(45deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.tableTitle.active:after {
+  transform: translateY(-50%) rotate(225deg);
+}
+
+.list {
+  background-color: #333;
+  margin-top: 2px;
+  padding: 10px;
+  position: absolute;
+  z-index: 3;
+  /* width: 265px; */
+  border-radius: 5px;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.list.active {
+  opacity: 1;
+}
+
+.list li {
+  color: #fff;
+  padding: 3px 0 3px 6px;
+  margin: 8px 0 7px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: calc(100% - 6px);
+  box-sizing: border-box;
+}
+
+.list li:hover {
+  background-color: #fa198c;
+}
+
+.list li.active {
+  color: #fa198c;
+  background-color: #fff;
+}
+
+.inputWrapper {
+  /* max-width: 373px; */
+  width: 100%;
+  height: 43px;
+  position: relative;
+  border-bottom: 0.4px solid #ccc;
+}
+
+.inputWrapper input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  padding: 0 60px 0 20px;
+  height: 46px;
+  font-size: 20px;
+  color: #fff;
+  background-color: transparent;
+}
+
+.inputWrapper input::placeholder {
+  font-size: 20px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.inputWrapper .search-btn {
+  position: absolute;
+  right: 5px;
+  bottom: 11px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.FieldWrap {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.FieldWrap.active {
+  display: block;
+}
+
+.FilterBadge {
+  font-size: 18px;
+  color: #fff;
+  background-color: #202020;
+  padding: 11px 64px 11px 15px;
+  margin: 0 27px 10px 0;
+  border: 1px solid #707070;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+.FilterBadge::before {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  width: 18px;
+  height: 17px;
+  background: url("/images/close-filter.svg") no-repeat 50%;
+  background-size: cover;
+  transform: translateY(-50%);
+}
+
+.clearBtn {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.clearBtn.active {
+  display: inline-block;
+}
+
+.noResult {
+  display: none;
+  margin-top: 30px;
+}
+
+.noResult.active {
+  display: block;
+}
+
+.pagination-button {
+  display: none;
+  padding-top: 40px;
+}
+
+.pagination-button.active {
+  display: block;
+}
+
+.paginationItem {
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+  margin: 0 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.paginationItem.active {
+  color: #fa198c;
+}
+
+.paginationItem.disabled {
+  display: none;
+}
