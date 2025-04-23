@@ -1,4 +1,4 @@
-.whitegrid::after {
+/* .whitegrid::after {
   position: absolute;
   content: "";
   background: url("/images/Grid_Pattern_White.svg") round fixed;
@@ -9,7 +9,7 @@
   opacity: 0.5;
   z-index: 2;
   background-attachment: fixed;
-}
+} */
 .dark__overlay::before {
   content: "";
   position: absolute;
