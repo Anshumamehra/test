@@ -1,0 +1,68 @@
+/* [project]/src/styles/CaseStudies.module.css [client] (css) */
+.CaseStudies-module__aciIGa__outerWrap {
+  border-top: 1px solid #000;
+}
+
+.CaseStudies-module__aciIGa__outerWrap .CaseStudies-module__aciIGa__hoverImg:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: .5;
+}
+
+.CaseStudies-module__aciIGa__touch-device .CaseStudies-module__aciIGa__outerWrap .CaseStudies-module__aciIGa__hoverImg {
+  clip-path: circle(100%);
+}
+
+.CaseStudies-module__aciIGa__outerWrap .CaseStudies-module__aciIGa__hoverImg {
+  clip-path: circle(0);
+  transition: all .4s ease-in-out;
+}
+
+.CaseStudies-module__aciIGa__outerWrap:hover .CaseStudies-module__aciIGa__hoverImg {
+  clip-path: circle(100%);
+  transition: all .6s ease-in-out;
+}
+
+.CaseStudies-module__aciIGa__outerWrap .CaseStudies-module__aciIGa__defaultLogo {
+  opacity: 1;
+  transition-duration: .7s;
+}
+
+.CaseStudies-module__aciIGa__outerWrap .CaseStudies-module__aciIGa__hoverLogo {
+  display: none;
+  opacity: 0;
+  transition-duration: .7s;
+}
+
+.CaseStudies-module__aciIGa__outerWrap:hover .CaseStudies-module__aciIGa__defaultLogo {
+  display: none;
+  opacity: 0;
+}
+
+.CaseStudies-module__aciIGa__outerWrap:hover .CaseStudies-module__aciIGa__hoverLogo {
+  display: block;
+  opacity: 1;
+}
+
+.CaseStudies-module__aciIGa__outerWrap .CaseStudies-module__aciIGa__introWrap h4 {
+  transition-duration: .7s;
+}
+
+.CaseStudies-module__aciIGa__outerWrap .CaseStudies-module__aciIGa__introWrap p {
+  transition-duration: .7s;
+}
+
+.CaseStudies-module__aciIGa__outerWrap:hover .CaseStudies-module__aciIGa__introWrap h4 {
+  color: #fff;
+}
+
+.CaseStudies-module__aciIGa__outerWrap:hover .CaseStudies-module__aciIGa__introWrap p {
+  color: #fff;
+}
+
+/*# sourceMappingURL=src_styles_CaseStudies_module_735113.css.map*/

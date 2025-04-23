@@ -1,0 +1,41 @@
+{
+  "pages": {
+    "/_app": [
+      "static/chunks/node_modules_next_f80f03._.js",
+      "static/chunks/node_modules_react-dom_82bb97._.js",
+      "static/chunks/node_modules_1b7400._.js",
+      "static/chunks/[root of the server]__13b1bf._.js",
+      "static/chunks/src_styles_5ba4d3._.css",
+      "static/chunks/src_pages__app_5771e1._.js",
+      "static/chunks/src_pages__app_21a9b1._.js"
+    ],
+    "/": [
+      "static/chunks/[root of the server]__bf766f._.js",
+      "static/chunks/node_modules_next_25f03d._.js",
+      "static/chunks/node_modules_react-dom_82bb97._.js",
+      "static/chunks/node_modules_1b7400._.js",
+      "static/chunks/src_styles_2fd426._.css",
+      "static/chunks/src_pages_index_5771e1._.js",
+      "static/chunks/src_pages_index_18720a._.js"
+    ],
+    "/about-us": [
+      "static/chunks/[root of the server]__220634._.js",
+      "static/chunks/node_modules_next_25f03d._.js",
+      "static/chunks/node_modules_react-dom_82bb97._.js",
+      "static/chunks/node_modules_framer-motion_dist_es_2fc606._.js",
+      "static/chunks/node_modules_38d7b6._.js",
+      "static/chunks/src_styles_80dfdf._.css",
+      "static/chunks/src_pages_about-us_index_jsx_5771e1._.js",
+      "static/chunks/src_pages_about-us_index_jsx_cac969._.js"
+    ]
+  },
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/development/_ssgManifest.js",
+    "static/development/_buildManifest.js"
+  ],
+  "rootMainFiles": [],
+  "ampFirstPages": []
+}

@@ -1,0 +1,25 @@
+/* [project]/src/styles/Counter.module.css [client] (css) */
+.Counter-module__dh1fbq__countWrap {
+  color: #fff;
+}
+
+.Counter-module__dh1fbq__count {
+  font-size: 48px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.Counter-module__dh1fbq__label {
+  font-size: 18px;
+  color: #fff;
+  padding-top: 10px;
+}
+
+@media (width <= 767px) {
+  .Counter-module__dh1fbq__count {
+    font-size: 35px;
+  }
+}
+
+/*# sourceMappingURL=src_styles_Counter_module_735113.css.map*/
