@@ -10,7 +10,7 @@ import TabsSection from "@/components/TabsSection";
 export default function Home() {
   const overlay = true;
   const heroBannerData = {
-    heading: "Hello! We are Clear Digital",
+    heading: "Anshuma Mehra - Clear Digital",
     title: "Let's take you to what's next.",
     src: "/images/Clear-Digital-Home-Hero_400kbps.mp4",
     video: true,
