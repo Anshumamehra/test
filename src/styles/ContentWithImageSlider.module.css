@@ -1,0 +1,85 @@
+.slidesWrapper {
+    transition: transform 0.5s ease-in-out;
+  }
+  .innerContent {
+    width: 100%;
+  }
+  
+  .navArrow {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-50%);
+    color: #000;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 40px;
+    transition: background 0.3s ease;
+    z-index: 10;
+  }
+  
+  .navArrow:hover {
+    color: #fa198c;
+  }
+  
+  .navArrow:hover:not(.disabled) {
+    background: #000;
+  }
+  
+  .navArrow.disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+  
+  .prevArrow {
+    left: 90px;
+  }
+  
+  .nextArrow {
+    left: 320px;
+  }
+  
+  /* Dots Styles */
+  .dotsContainer {
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+    bottom: 77px;
+    left: 205px;
+  }
+  
+  .dot {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .dot:hover {
+    background: #000;
+  }
+  
+  .activeDot {
+    background: #000;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .navArrow {
+      padding: 10px;
+      font-size: 18px;
+    }
+  
+    .innerContent {
+      padding: 15px;
+    }
+  
+    .dot {
+      width: 10px;
+      height: 10px;
+    }
+  }
+  

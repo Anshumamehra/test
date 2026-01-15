@@ -23,6 +23,7 @@ const Header = () => {
     { name: "Solution Us", href: "/Solution" },
     { name: "Contact Us", href: "/contact" },
     { name: "Work", href: "/work" },
+    { name:"Practice", href: "/Practice"}
   ];
 
   const toggleMenu = () => {

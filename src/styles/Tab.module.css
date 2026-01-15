@@ -1,0 +1,105 @@
+.tabname.active::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-radius: 5px;
+    background: orange;
+    transition: all .3s ease-in-out;
+    
+    
+}
+.tabhead{
+ 
+}
+.mobileDropdown {
+    display: none;
+  }
+
+
+  /* Mobile Styles */
+@media (max-width: 768px) {
+    .tabhead {
+      display: none;
+    }
+  
+    .mobileDropdown {
+      display: block;
+      position: relative;
+    }
+  
+    .DropdownToggle {
+      width: 100%;
+      padding: 10px 20px;
+      background: #fff;
+      border: 1px solid #eee;
+      font-size: 22px;
+      font-weight: 900;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #000;
+    }
+  
+    .arrow {
+      width: 12px;
+      height: 12px;
+      border-right: 2px solid #000;
+      border-bottom: 2px solid #000;
+      transform: rotate(45deg);
+      transition: transform 0.2s linear, -webkit-transform 0.2s linear,
+        -o-transform 0.2s linear;
+    }
+  
+    .mobileDropdown .DropdownToggle:has(+ .dropdownMenu) .arrow {
+      transform: rotate(-135deg);
+    }
+  
+    .dropdownMenu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #fff;
+      /* border: 1px solid #000; */
+      box-shadow: 0px 4px 25px 0px rgba(91, 91, 91, 0.15);
+      border-top: none;
+      z-index: 1000;
+    }
+  
+    .dropdownItem {
+      width: 100%;
+      padding: 10px 20px;
+      background: none;
+      border: none;
+      font-size: 20px;
+      font-weight: 700;
+      cursor: pointer;
+      text-align: left;
+      color: #000;
+    }
+  
+    .dropdownItem:hover {
+      background: #f5f5f5;
+    }
+  
+    .dropdownItem.active {
+      color: #fa198c;
+      background: #fafafa;
+    }
+  
+    .tabContent {
+      padding: 1rem;
+    }
+  
+    .inner-wrap h1 {
+      font-size: 1.5rem;
+    }
+  
+    .inner-wrap p {
+      font-size: 1rem;
+    }
+  }
