@@ -1,0 +1,10 @@
+.item{
+    background-color: blue;
+}
+.innerwrap{
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    transition: width 1.5s ease-in-out;
+    white-space: nowrap;
+
+}
