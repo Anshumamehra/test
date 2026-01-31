@@ -58,7 +58,7 @@ export default function ContentWithImageSlider() {
   return (
     <section className="ContentWithImageSlider bg-white">
       <div className="container relative">
-        <divs
+        <div
           className={`sliderWrap relative w-full overflow-hidden flex  flex-wrap items-center justify-center m-auto ${styles.sliderWrap}`}
         >
           {/* Show only current slide */}
@@ -71,9 +71,9 @@ export default function ContentWithImageSlider() {
                 key={index}
                 className={`item w-full flex min-w-full ${styles.item}`}
               >
-                <div className="innerContent px-[40px] flex justify-center items-center">
-                  <div className=" w-[calc(100%-622px)]">
-                    <div className="bg-[#fa524d] w-[calc(100%+191px)] pt-[140px] pb-[140px] pl-[129px] pr-[250px]">
+                <div className="innerContent px-[40px] flex justify-center items-center lg:block">
+                  <div className=" w-[calc(100%-622px)] lg:w-full">
+                    <div className="bg-[#fa524d] w-[calc(100%+191px)] pt-[140px] pb-[140px] pl-[129px] pr-[250px] largeLaptopDown:pt-[80px] largeLaptopDown:pl-[60px] largeLaptopDown:pb-[100px] lg:p-10">
                       <h3 className="text-white capitalize">{slide.title}</h3>
                       <p className="text-white pt-[20px]">{slide.desc}</p>
                       <div class="btnWrap mt-[20px]">
@@ -81,7 +81,7 @@ export default function ContentWithImageSlider() {
                       </div>
                     </div>
                   </div>
-                  <div className="imgWrap w-full max-h-[345px] max-w-[600px] overflow-hidden">
+                  <div className="imgWrap w-full max-h-[345px] max-w-[600px] overflow-hidden largeLaptopDown:max-w-[540px]">
                             <img
                                 className="object-cover h-full w-full"
                                 src={slide.imgSrc}
@@ -93,9 +93,10 @@ export default function ContentWithImageSlider() {
               </div>
             ))}
           </div>
-        </divs>
+        </div>
 
         {/* Navigation Arrows */}
+        <div className="mt-7 relative">
         <button
           className={`navArrow prevArrow ${isFirstSlide ? "disabled" : ""} ${
             styles.navArrow
@@ -116,6 +117,7 @@ export default function ContentWithImageSlider() {
         >
           ❯
         </button>
+        </div>
 
         {/* Slick Dots */}
         <div className={styles.dotsContainer}>

@@ -6,8 +6,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import styles from "@/styles/Counter.module.css";
 
 const Counter = () => {
-  const [isInView, setIsInView] = useState(false);
-  const counterRef = useRef(null);
+const [isInView, setIsInView] = useState(false);
+const counterRef = useRef(null);
 
   const counterData = [
     {

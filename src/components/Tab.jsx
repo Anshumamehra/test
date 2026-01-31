@@ -63,45 +63,50 @@ imgSrc2: "/images/boy-dog.png",
                         ))}
                     </div>
                      {/* Mobile Dropdown */}
-                     <div className={styles.mobileDropdown}>
-                        <button className={styles.DropdownToggle} onclick={toggleDropdown}>
-                            {tabdata[activeTab].title}
-                            <span className={styles.arrow}></span>
-                        </button>
-                        {isDropdownOpen && (
-                        <div className={styles.dropdownMenu}>
-                        {tabdata.map((tabs, index) => (
-                            <button
-                            key={index}
-                            className={`${styles.dropdownItem} ${
-                                activeTab === index ? styles.active : ""
-                            }`}
-                            onClick={() => handleTabClick(index)}
-                            >
-                            {tabs.title}
-                            </button>
-                        ))}
-                        </div>
-                    )}
-                     </div>
+<div className={styles.mobileDropdown}>
+  <button
+    className={styles.DropdownToggle}
+    onClick={toggleDropdown}
+  >
+    {tabdata[activeTab].title}
+    <span className={styles.arrow}></span>
+  </button>
+
+  {isDropdownOpen && (
+    <div className={styles.dropdownMenu}>
+      {tabdata.map((tabs, index) => (
+        <button
+          key={index}
+          className={`${styles.dropdownItem} ${
+            activeTab === index ? styles.active : ""
+          }`}
+          onClick={() => handleTabClick(index)}
+        >
+          {tabs.title}
+        </button>
+      ))}
+    </div>
+  )}
+</div>
+
                     {/* Tab Data */}
                     <div className="tabData  mt-10">
-                        <div className="wrapper flex justify-around mt-24 md:inline-block">
+                        <div className="wrapper flex justify-around mt-24 md:block md:mt-0">
                             <div className="innerWrap w-[60%] mr-9 md:w-full">
                                 <h3 className="tabheading text-black">{currentTab.Heading}</h3>
-                                <p className="tabdata text-black mt-7 max-w-[580px]">{currentTab.Data}</p>
+                                <p className="tabdata text-black mt-7 max-w-[580px] md:max-w-full">{currentTab.Data}</p>
                                 <div class="btnWrap mt-[20px]"><a href="#" class="pink-btn link-white text-white" data-cursor-expand="">View all case studies</a></div>
                             </div>
                             <div className="col-three w-[40%] md:w-full">
                             <div className="imgWrap w-[360px]  h-[240px] flex justify-start absolute md:mt-7 md:inline-block md:relative">
                                 <img
-                                className="max-w-[360px] max-h-[240px] block object-cover h-full w-full"
+                                className="max-w-[360px] max-h-[240px] md:max-w-[280px] md:max-h-[200px] block object-cover h-full w-full"
                                 src={currentTab.imgSrc1}
                                 alt={currentTab.alt}
                                 loading="lazy"
                                 />
                             </div>
-                            <div className="imgWrap w-[360px]  h-[240px] absolute flex justify-end right-0 top-24 md:relative md:top-0">
+                            <div className="imgWrap w-[360px]  h-[240px] md:max-w-[280px] md:max-h-[200px] absolute flex justify-end right-0 top-24 md:relative md:top-0">
                                 <img 
                                     className=" max-w-[360px] max-h-[240px] block object-cover h-full w-full"
                                     src={currentTab.imgSrc2}
