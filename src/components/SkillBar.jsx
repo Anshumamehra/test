@@ -47,10 +47,10 @@ const SkillBar = () => {
   
 
   return (
-    <section className="SkillBar" ref={sectionRef}>
+    <section className="SkillBar bg-white" ref={sectionRef}>
       <div className="container">
-        <h2 className="text-center">{bardata.intro.heading}</h2>
-        <p className="text-center mt-6">{bardata.intro.para}</p>
+        <h2 className="text-center text-black">{bardata.intro.heading}</h2>
+        <p className="text-center mt-6 text-black">{bardata.intro.para}</p>
 
         <div className="outerwrap bg-gray-500 p-5 rounded-lg mt-10">
           {bardata.data.map((data, index) => {
