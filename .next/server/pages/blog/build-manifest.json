@@ -6,13 +6,11 @@
   "rootMainFiles": [],
   "pages": {
     "/blog": [
-      "static/chunks/node_modules_next_dist_f1b02b._.js",
-      "static/chunks/node_modules_react-dom_82bb97._.js",
-      "static/chunks/node_modules_1b7400._.js",
-      "static/chunks/[root of the server]__752f2f._.js",
-      "static/chunks/src_styles_HeroBanner_module_fd2a66.css",
-      "static/chunks/src_pages_blog_index_jsx_5771e1._.js",
-      "static/chunks/src_pages_blog_index_jsx_60816a._.js"
+      "static/chunks/465c608df86dc883.js",
+      "static/chunks/69a0a9dd2334c1e8.js",
+      "static/chunks/11dd6fa3569b4bf3.js",
+      "static/chunks/122ed5a5e5d5ce8c.css",
+      "static/chunks/turbopack-ff1d920244d8b3de.js"
     ]
   },
   "ampFirstPages": []

@@ -1,5 +1,5 @@
-const CHUNK_PUBLIC_PATH = "server/pages/_app.js";
-const runtime = require("../chunks/ssr/[turbopack]_runtime.js");
-runtime.loadChunk("server/chunks/ssr/[root of the server]__1f3e52._.js");
-runtime.loadChunk("server/chunks/ssr/src_styles_603fdb._.css");
-module.exports = runtime.getOrInstantiateRuntimeModule("[project]/src/pages/_app.js [ssr] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
+var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/pages/_app.js")
+R.c("server/chunks/ssr/[root-of-the-server]__ead713dc._.js")
+R.c("server/chunks/ssr/Documents_GitHub_test_0bf5e0d4._.js")
+R.m(74497)
+module.exports=R.m(74497).exports
