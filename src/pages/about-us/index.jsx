@@ -8,7 +8,7 @@ import Counter from "@/components/Counter";
 export default function AboutUs() {
   const overlay = true;
   const heroBannerData = {
-    heading: "Welcomes! We are Clear Digital",
+    heading: "Welcome! We are Clear Digital",
     title: "About Us",
     src: "/images/work-paper.jpg",
     alt: "Working Paper",
