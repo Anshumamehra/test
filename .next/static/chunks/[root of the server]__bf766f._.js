@@ -733,7 +733,6 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 __turbopack_export_value__({
   "HeroBanner": "HeroBanner-module__xhkWTW__HeroBanner",
   "dark__overlay": "HeroBanner-module__xhkWTW__dark__overlay",
-  "whitegrid": "HeroBanner-module__xhkWTW__whitegrid",
 });
 }}),
 "[project]/src/components/HeroBanner.jsx [client] (ecmascript)": ((__turbopack_context__) => {
@@ -2428,8 +2427,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TabsSec
 function Home() {
     const overlay = true;
     const heroBannerData = {
-        heading: "Hello! We are Clear Digital",
-        title: "Let's take you to what's next.",
+        heading: "Anshu Mehra",
+        title: "Anshu & Co Digital Solutions",
         src: "/images/Clear-Digital-Home-Hero_400kbps.mp4",
         video: true
     };

@@ -81,20 +81,24 @@ const Header = ()=>{
     }, []);
     const navItems = [
         {
-            name: "About",
+            name: "About Us",
             href: "/about-us"
         },
         {
-            name: "Solution",
+            name: "Solution Us",
             href: "/Solution"
         },
         {
-            name: "Contact",
+            name: "Contact Us",
             href: "/contact"
         },
         {
             name: "Work",
             href: "/work"
+        },
+        {
+            name: "Practice",
+            href: "/Practice"
         }
     ];
     const toggleMenu = ()=>{
@@ -113,12 +117,12 @@ const Header = ()=>{
                         alt: "Tables and a sofa"
                     }, void 0, false, {
                         fileName: "[project]/src/components/Header.jsx",
-                        lineNumber: 37,
+                        lineNumber: 38,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Header.jsx",
-                    lineNumber: 36,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -126,13 +130,6 @@ const Header = ()=>{
                     onClick: toggleMenu,
                     "aria-label": "Toggle menu",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Header$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].hamburgerLines
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/Header.jsx",
-                            lineNumber: 46,
-                            columnNumber: 11
-                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Header$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].hamburgerLines
                         }, void 0, false, {
@@ -146,11 +143,18 @@ const Header = ()=>{
                             fileName: "[project]/src/components/Header.jsx",
                             lineNumber: 48,
                             columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                            className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Header$2e$module$2e$css__$5b$ssr$5d$__$28$css__module$29$__["default"].hamburgerLines
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Header.jsx",
+                            lineNumber: 49,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Header.jsx",
-                    lineNumber: 41,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("nav", {
@@ -166,33 +170,33 @@ const Header = ()=>{
                                     children: item.name
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Header.jsx",
-                                    lineNumber: 56,
+                                    lineNumber: 57,
                                     columnNumber: 17
                                 }, this)
                             }, item.name, false, {
                                 fileName: "[project]/src/components/Header.jsx",
-                                lineNumber: 55,
+                                lineNumber: 56,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/Header.jsx",
-                        lineNumber: 53,
+                        lineNumber: 54,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Header.jsx",
-                    lineNumber: 52,
+                    lineNumber: 53,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Header.jsx",
-            lineNumber: 34,
+            lineNumber: 35,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Header.jsx",
-        lineNumber: 33,
+        lineNumber: 34,
         columnNumber: 5
     }, this);
 };

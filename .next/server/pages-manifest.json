@@ -1,10 +1,5 @@
 {
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/about-us": "pages/about-us.js",
-  "/blog": "pages/blog.js",
-  "/Solution": "pages/Solution.js",
-  "/contact": "pages/contact.js",
-  "/work": "pages/work.js"
+  "/": "pages/index.js"
 }

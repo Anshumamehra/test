@@ -14,19 +14,6 @@
 
 
 /* [project]/src/styles/HeroBanner.module.css [client] (css) */
-.HeroBanner-module__xhkWTW__whitegrid:after {
-  position: absolute;
-  content: "";
-  background: url("/images/Grid_Pattern_White.svg") round fixed;
-  background-size: 4rem;
-  height: 100%;
-  width: 100%;
-  inset: 0;
-  opacity: .5;
-  z-index: 2;
-  background-attachment: fixed;
-}
-
 .HeroBanner-module__xhkWTW__dark__overlay:before {
   content: "";
   position: absolute;
