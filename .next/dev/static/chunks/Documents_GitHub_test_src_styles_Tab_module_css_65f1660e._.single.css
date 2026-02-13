@@ -1,0 +1,104 @@
+/* [project]/Documents/GitHub/test/src/styles/Tab.module.css [client] (css) */
+.Tab-module__XyA6dq__tabname.Tab-module__XyA6dq__active:after {
+  content: "";
+  background: orange;
+  border-radius: 5px;
+  width: 100%;
+  height: 4px;
+  transition: all .3s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.Tab-module__XyA6dq__tabhead {
+  display: flex;
+}
+
+.Tab-module__XyA6dq__mobileDropdown {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .Tab-module__XyA6dq__tabhead {
+    display: none;
+  }
+
+  .Tab-module__XyA6dq__mobileDropdown {
+    display: block;
+    position: relative;
+  }
+
+  .Tab-module__XyA6dq__DropdownToggle {
+    cursor: pointer;
+    color: #000;
+    background: #fff;
+    border: 1px solid #eee;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: 900;
+    display: flex;
+  }
+
+  .Tab-module__XyA6dq__arrow {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    width: 12px;
+    height: 12px;
+    transition: transform .2s linear;
+    transform: rotate(45deg);
+  }
+
+  .Tab-module__XyA6dq__mobileDropdown .Tab-module__XyA6dq__DropdownToggle:has( + .Tab-module__XyA6dq__dropdownMenu) .Tab-module__XyA6dq__arrow {
+    transform: rotate(-135deg);
+  }
+
+  .Tab-module__XyA6dq__dropdownMenu {
+    z-index: 1000;
+    background: #fff;
+    border-top: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 25px #5b5b5b26;
+  }
+
+  .Tab-module__XyA6dq__dropdownItem {
+    cursor: pointer;
+    text-align: left;
+    color: #000;
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .Tab-module__XyA6dq__dropdownItem:hover {
+    background: #f5f5f5;
+  }
+
+  .Tab-module__XyA6dq__dropdownItem.Tab-module__XyA6dq__active {
+    color: #fa198c;
+    background: #fafafa;
+  }
+
+  .Tab-module__XyA6dq__tabContent {
+    padding: 1rem;
+  }
+
+  .Tab-module__XyA6dq__inner-wrap h1 {
+    font-size: 1.5rem;
+  }
+
+  .Tab-module__XyA6dq__inner-wrap p {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=Documents_GitHub_test_src_styles_Tab_module_css_65f1660e._.single.css.map*/

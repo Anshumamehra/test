@@ -7,6 +7,7 @@ import Cta from "@/components/Cta";
 import Footer from "@/components/Footer";
 import CaseStudies from "@/components/CaseStudies";
 import TabsSection from "@/components/TabsSection";
+import WelcomeIntro from "@/components/WelcomeIntro";
 export default function Home() {
   const overlay = true;
   const heroBannerData = {
@@ -17,6 +18,7 @@ export default function Home() {
   };
   return (
     <div>
+       <WelcomeIntro />
       <HeroBanner overlay={overlay} heroBannerData={heroBannerData} />
       <TabsSection />
       <ColThreeCard />
@@ -25,6 +27,7 @@ export default function Home() {
       <CaseStudies />
       <Cta />
       <Footer />
+     
     </div>
   );
 }

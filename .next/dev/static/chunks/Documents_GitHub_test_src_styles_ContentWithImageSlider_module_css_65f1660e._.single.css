@@ -1,0 +1,82 @@
+/* [project]/Documents/GitHub/test/src/styles/ContentWithImageSlider.module.css [client] (css) */
+.ContentWithImageSlider-module__5Ams7W__slidesWrapper {
+  transition: transform .5s ease-in-out;
+}
+
+.ContentWithImageSlider-module__5Ams7W__innerContent {
+  width: 100%;
+}
+
+.ContentWithImageSlider-module__5Ams7W__navArrow {
+  color: #000;
+  cursor: pointer;
+  z-index: 10;
+  border: none;
+  padding: 15px;
+  font-size: 40px;
+  transition: background .3s;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(-50%);
+}
+
+.ContentWithImageSlider-module__5Ams7W__navArrow:hover {
+  color: #fa198c;
+}
+
+.ContentWithImageSlider-module__5Ams7W__navArrow:hover:not(.ContentWithImageSlider-module__5Ams7W__disabled) {
+  background: #000;
+}
+
+.ContentWithImageSlider-module__5Ams7W__navArrow.ContentWithImageSlider-module__5Ams7W__disabled {
+  opacity: .3;
+  cursor: not-allowed;
+}
+
+.ContentWithImageSlider-module__5Ams7W__prevArrow {
+  left: 90px;
+}
+
+.ContentWithImageSlider-module__5Ams7W__nextArrow {
+  left: 320px;
+}
+
+.ContentWithImageSlider-module__5Ams7W__dotsContainer {
+  z-index: 10;
+  gap: 10px;
+  display: flex;
+  position: absolute;
+  bottom: 77px;
+  left: 205px;
+}
+
+.ContentWithImageSlider-module__5Ams7W__dot {
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  transition: all .3s;
+}
+
+.ContentWithImageSlider-module__5Ams7W__dot:hover, .ContentWithImageSlider-module__5Ams7W__activeDot {
+  background: #000;
+}
+
+@media (max-width: 768px) {
+  .ContentWithImageSlider-module__5Ams7W__navArrow {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .ContentWithImageSlider-module__5Ams7W__innerContent {
+    padding: 15px;
+  }
+
+  .ContentWithImageSlider-module__5Ams7W__dot {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/*# sourceMappingURL=Documents_GitHub_test_src_styles_ContentWithImageSlider_module_css_65f1660e._.single.css.map*/

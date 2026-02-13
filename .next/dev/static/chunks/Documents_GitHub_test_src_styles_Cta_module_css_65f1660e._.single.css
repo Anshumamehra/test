@@ -1,0 +1,25 @@
+/* [project]/Documents/GitHub/test/src/styles/Cta.module.css [client] (css) */
+.Cta-module__Tqw75G__whitegrid:after {
+  content: "";
+  opacity: .5;
+  z-index: 2;
+  background: url("/images/Grid_Pattern_White.svg") 0 0 / 4rem round fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+.Cta-module__Tqw75G__dark__overlay:before {
+  content: "";
+  opacity: .5;
+  z-index: 2;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=Documents_GitHub_test_src_styles_Cta_module_css_65f1660e._.single.css.map*/

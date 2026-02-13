@@ -1,0 +1,203 @@
+/* [project]/Documents/GitHub/test/src/styles/HeroBanner.module.css [client] (css) */
+.HeroBanner-module__OKrGXW__dark__overlay:before {
+  content: "";
+  opacity: .5;
+  z-index: 2;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.HeroBanner-module__OKrGXW__HeroBanner {
+  padding: 142px 0 100px;
+}
+
+/* [project]/Documents/GitHub/test/src/styles/Footer.module.css [client] (css) */
+.Footer-module__4DiEXG__titleWrap p {
+  color: #fff;
+  padding-top: 20px;
+}
+
+.Footer-module__4DiEXG__itemSmall a svg path {
+  transition: all .3s ease-in-out;
+}
+
+.Footer-module__4DiEXG__itemSmall a:hover svg path {
+  fill: #fa198c;
+}
+
+.Footer-module__4DiEXG__itemMedium ul li a {
+  transition: all .3s ease-in-out;
+}
+
+.Footer-module__4DiEXG__itemMedium ul li a:hover {
+  color: #fa198c;
+}
+
+/* [project]/Documents/GitHub/test/src/styles/ImageSlider.module.css [client] (css) */
+.ImageSlider-module__qdwJDG__slidesWrapper {
+  transition: transform .5s ease-in-out;
+}
+
+.ImageSlider-module__qdwJDG__innerContent {
+  width: 100%;
+}
+
+.ImageSlider-module__qdwJDG__navArrow {
+  color: #fff;
+  cursor: pointer;
+  z-index: 10;
+  background: #000;
+  border: none;
+  padding: 15px;
+  font-size: 40px;
+  transition: background .3s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ImageSlider-module__qdwJDG__navArrow:hover {
+  color: #fa198c;
+}
+
+.ImageSlider-module__qdwJDG__navArrow:hover:not(.ImageSlider-module__qdwJDG__disabled) {
+  background: #000;
+}
+
+.ImageSlider-module__qdwJDG__navArrow.ImageSlider-module__qdwJDG__disabled {
+  opacity: .3;
+  cursor: not-allowed;
+}
+
+.ImageSlider-module__qdwJDG__prevArrow {
+  left: 20px;
+}
+
+.ImageSlider-module__qdwJDG__nextArrow {
+  right: 20px;
+}
+
+.ImageSlider-module__qdwJDG__dotsContainer {
+  z-index: 10;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.ImageSlider-module__qdwJDG__dot {
+  cursor: pointer;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  transition: background .3s;
+}
+
+.ImageSlider-module__qdwJDG__dot:hover, .ImageSlider-module__qdwJDG__activeDot {
+  background: #fa198c;
+}
+
+@media (max-width: 768px) {
+  .ImageSlider-module__qdwJDG__navArrow {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .ImageSlider-module__qdwJDG__innerContent {
+    padding: 15px;
+  }
+
+  .ImageSlider-module__qdwJDG__dot {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/* [project]/Documents/GitHub/test/src/styles/Cta.module.css [client] (css) */
+.Cta-module__Tqw75G__whitegrid:after {
+  content: "";
+  opacity: .5;
+  z-index: 2;
+  background: url("/images/Grid_Pattern_White.svg") 0 0 / 4rem round fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+.Cta-module__Tqw75G__dark__overlay:before {
+  content: "";
+  opacity: .5;
+  z-index: 2;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* [project]/Documents/GitHub/test/src/styles/Accordion.module.css [client] (css) */
+.Accordion-module__mQuOUq__accordionItem:last-child {
+  margin-bottom: 0;
+}
+
+.Accordion-module__mQuOUq__noBorder {
+  border-bottom: none;
+}
+
+.Accordion-module__mQuOUq__title .Accordion-module__mQuOUq__arrow {
+  border: 3px solid #fff;
+  border-width: 0 3px 3px 0;
+  width: 15px;
+  height: 15px;
+  transition: transform .3s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: rotate(45deg);
+}
+
+.Accordion-module__mQuOUq__title.Accordion-module__mQuOUq__active .Accordion-module__mQuOUq__arrow {
+  transform: rotate(-135deg);
+}
+
+.Accordion-module__mQuOUq__panel p {
+  padding-top: 30px;
+}
+
+.Accordion-module__mQuOUq__panel p:last-child {
+  padding-bottom: 0;
+}
+
+/* [project]/Documents/GitHub/test/src/styles/Counter.module.css [client] (css) */
+.Counter-module__sNSIja__countWrap {
+  color: #fff;
+}
+
+.Counter-module__sNSIja__count {
+  margin-bottom: 10px;
+  font-size: 48px;
+  font-weight: bold;
+  display: block;
+}
+
+.Counter-module__sNSIja__label {
+  color: #fff;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .Counter-module__sNSIja__count {
+    font-size: 35px;
+  }
+}
+
+/*# sourceMappingURL=Documents_GitHub_test_src_styles_7cdc8825._.css.map*/

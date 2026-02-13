@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Documents/GitHub/test/src/styles/Accordion.module.css"],"sourcesContent":[".accordionItem:last-child {\n  margin-bottom: 0;\n}\n.noBorder {\n  border-bottom: none;\n}\n.title .arrow {\n  position: absolute;\n  top: 50%;\n  right: 0;\n  width: 15px;\n  height: 15px;\n  border: solid #fff;\n  border-width: 0 3px 3px 0;\n  transform: rotate(45deg);\n  transition: transform 0.3s ease-in-out;\n}\n\n.title.active .arrow {\n  transform: rotate(-135deg);\n}\n.panel p {\n  padding-top: 30px;\n}\n\n.panel p:last-child {\n  padding-bottom: 0;\n}\n"],"names":[],"mappings":"AAAA;;;;AAGA;;;;AAGA;;;;;;;;;;;;AAYA;;;;AAGA;;;;AAIA"}}]
+}

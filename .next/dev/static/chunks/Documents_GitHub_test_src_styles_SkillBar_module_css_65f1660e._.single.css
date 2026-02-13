@@ -1,0 +1,13 @@
+/* [project]/Documents/GitHub/test/src/styles/SkillBar.module.css [client] (css) */
+.SkillBar-module__i3lIUG__item {
+  background-color: #00f;
+}
+
+.SkillBar-module__i3lIUG__innerwrap {
+  white-space: nowrap;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  transition: width 1.5s ease-in-out;
+}
+
+/*# sourceMappingURL=Documents_GitHub_test_src_styles_SkillBar_module_css_65f1660e._.single.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Documents/GitHub/test/src/styles/Counter.module.css"],"sourcesContent":[".countWrap {\n  color: #fff;\n}\n\n.count {\n  font-size: 48px;\n  font-weight: bold;\n  display: block;\n  margin-bottom: 10px;\n}\n\n.label {\n  font-size: 18px;\n  color: #fff;\n  padding-top: 10px;\n}\n\n@media (max-width: 767px) {\n  .count {\n    font-size: 35px;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;AAIA;;;;;;;AAOA;;;;;;AAMA;EACE"}}]
+}

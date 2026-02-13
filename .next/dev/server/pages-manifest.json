@@ -1,1 +1,10 @@
-{}
+{
+  "/": "pages/index.js",
+  "/Practice": "pages/Practice.js",
+  "/Solution": "pages/Solution.js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/about-us": "pages/about-us.js",
+  "/contact": "pages/contact.js",
+  "/work": "pages/work.js"
+}
