@@ -1,5 +1,5 @@
 __turbopack_load_page_chunks__("/Practice", [
-  "static/chunks/[root-of-the-server]__8a4140b6._.js",
+  "static/chunks/[root-of-the-server]__86d14621._.js",
   "static/chunks/44eea_next_dist_compiled_64cf0174._.js",
   "static/chunks/44eea_next_dist_shared_lib_52caa047._.js",
   "static/chunks/44eea_next_dist_client_33dc9432._.js",
@@ -9,5 +9,5 @@ __turbopack_load_page_chunks__("/Practice", [
   "static/chunks/44eea_44a29435._.js",
   "static/chunks/Documents_GitHub_test_src_styles_48a1ffd6._.css",
   "static/chunks/Documents_GitHub_test_src_pages_Practice_index_jsx_2da965e7._.js",
-  "static/chunks/turbopack-Documents_GitHub_test_src_pages_Practice_index_jsx_8e9f1211._.js"
+  "static/chunks/turbopack-Documents_GitHub_test_src_pages_Practice_index_jsx_b9d1ddc8._.js"
 ])
