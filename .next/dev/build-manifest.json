@@ -1,6 +1,44 @@
 {
   "pages": {
-    "/_app": []
+    "/": [
+      "static/chunks/[root-of-the-server]__b6c7205f._.js",
+      "static/chunks/44eea_next_dist_compiled_64cf0174._.js",
+      "static/chunks/44eea_next_dist_shared_lib_52caa047._.js",
+      "static/chunks/44eea_next_dist_client_33dc9432._.js",
+      "static/chunks/44eea_next_dist_f618643b._.js",
+      "static/chunks/44eea_next_image_fd004157.js",
+      "static/chunks/44eea_react-dom_c144b124._.js",
+      "static/chunks/44eea_44a29435._.js",
+      "static/chunks/Documents_GitHub_test_src_styles_685c8a53._.css",
+      "static/chunks/Documents_GitHub_test_src_pages_index_2da965e7._.js",
+      "static/chunks/turbopack-Documents_GitHub_test_src_pages_index_7aaa069c._.js"
+    ],
+    "/Practice": [
+      "static/chunks/[root-of-the-server]__86d14621._.js",
+      "static/chunks/44eea_next_dist_compiled_64cf0174._.js",
+      "static/chunks/44eea_next_dist_shared_lib_52caa047._.js",
+      "static/chunks/44eea_next_dist_client_33dc9432._.js",
+      "static/chunks/44eea_next_dist_f618643b._.js",
+      "static/chunks/44eea_next_image_fd004157.js",
+      "static/chunks/44eea_react-dom_c144b124._.js",
+      "static/chunks/44eea_44a29435._.js",
+      "static/chunks/Documents_GitHub_test_src_styles_48a1ffd6._.css",
+      "static/chunks/Documents_GitHub_test_src_pages_Practice_index_jsx_2da965e7._.js",
+      "static/chunks/turbopack-Documents_GitHub_test_src_pages_Practice_index_jsx_b9d1ddc8._.js"
+    ],
+    "/_app": [
+      "static/chunks/44eea_next_dist_compiled_a42eef30._.js",
+      "static/chunks/44eea_next_dist_shared_lib_9af8fcb5._.js",
+      "static/chunks/44eea_next_dist_client_01d7856a._.js",
+      "static/chunks/44eea_next_dist_f618643b._.js",
+      "static/chunks/44eea_next_link_4c9e9148.js",
+      "static/chunks/44eea_react-dom_c144b124._.js",
+      "static/chunks/44eea_44a29435._.js",
+      "static/chunks/[root-of-the-server]__b3f4cf29._.js",
+      "static/chunks/Documents_GitHub_test_src_styles_997d2552._.css",
+      "static/chunks/Documents_GitHub_test_src_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-Documents_GitHub_test_src_pages__app_8089583c._.js"
+    ]
   },
   "devFiles": [],
   "polyfillFiles": [],

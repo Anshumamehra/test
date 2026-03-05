@@ -1,0 +1,83 @@
+/* [project]/Documents/GitHub/test/src/styles/ImageSlider.module.css [client] (css) */
+.ImageSlider-module__qdwJDG__slidesWrapper {
+  transition: transform .5s ease-in-out;
+}
+
+.ImageSlider-module__qdwJDG__innerContent {
+  width: 100%;
+}
+
+.ImageSlider-module__qdwJDG__navArrow {
+  color: #fff;
+  cursor: pointer;
+  z-index: 10;
+  background: #000;
+  border: none;
+  padding: 15px;
+  font-size: 40px;
+  transition: background .3s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ImageSlider-module__qdwJDG__navArrow:hover {
+  color: #fa198c;
+}
+
+.ImageSlider-module__qdwJDG__navArrow:hover:not(.ImageSlider-module__qdwJDG__disabled) {
+  background: #000;
+}
+
+.ImageSlider-module__qdwJDG__navArrow.ImageSlider-module__qdwJDG__disabled {
+  opacity: .3;
+  cursor: not-allowed;
+}
+
+.ImageSlider-module__qdwJDG__prevArrow {
+  left: 20px;
+}
+
+.ImageSlider-module__qdwJDG__nextArrow {
+  right: 20px;
+}
+
+.ImageSlider-module__qdwJDG__dotsContainer {
+  z-index: 10;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.ImageSlider-module__qdwJDG__dot {
+  cursor: pointer;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  transition: background .3s;
+}
+
+.ImageSlider-module__qdwJDG__dot:hover, .ImageSlider-module__qdwJDG__activeDot {
+  background: #fa198c;
+}
+
+@media (max-width: 768px) {
+  .ImageSlider-module__qdwJDG__navArrow {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .ImageSlider-module__qdwJDG__innerContent {
+    padding: 15px;
+  }
+
+  .ImageSlider-module__qdwJDG__dot {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/*# sourceMappingURL=Documents_GitHub_test_src_styles_ImageSlider_module_css_65f1660e._.single.css.map*/

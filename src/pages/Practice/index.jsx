@@ -3,6 +3,7 @@ import Tab from "@/components/Tab";
 import ContentWithImageSlider from "@/components/ContentWithImageSlider";
 import SkillBar from "@/components/SkillBar";
 import Gallery from "@/components/Gallery";
+import Filter from "@/components/Filter";
 import Footer from "@/components/Footer";
 
 export default function Practice() {
@@ -20,7 +21,8 @@ const heroBannerData = {
       <Tab />
       <ContentWithImageSlider />
       <SkillBar />
-      < Gallery />
+      <Gallery />
+      <Filter />
       <Footer />
     </div>
   );

@@ -188,6 +188,7 @@ h1,
   font-style: normal;
   letter-spacing: normal;
   text-transform: uppercase;
+  font-family: Lobster Two, cursive;
 }
 h2,
 .h2 {
@@ -337,6 +338,7 @@ p {
   h1,
   .h1 {
     font-size: 40px;
+    
   }
   h2 {
     font-size: 28px;
@@ -363,4 +365,118 @@ p {
   .padding-60 {
     padding: 40px 0;
   }
+}
+
+
+.WelcomeIntro{
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at top, #020617, #000000);
+  z-index: 9999;
+  overflow: hidden;
+}
+
+
+.WelcomePanel {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(180deg, #020617, #0f172a);
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+  animation: leftOpen 2s ease forwards 3.8s;
+}
+
+.right {
+  right: 0;
+  animation: rightOpen 2s ease forwards 3.8s;
+}
+
+@keyframes leftOpen {
+  to { transform: translateX(-100%); }
+}
+@keyframes rightOpen {
+  to { transform: translateX(100%); }
+}
+
+
+.WelcomeContent {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.WelcomeTitle {
+  font-size: clamp(4rem, 10vw, 8rem);
+  font-weight: 900;
+  letter-spacing: 10px;
+  color: #ffffff;
+  opacity: 0;
+  transform: scale(0.5);
+  animation: titleReveal 1.6s ease forwards 0.4s;
+  text-shadow: 0 0 45px rgba(255, 255, 255, 0.4);
+}
+
+@keyframes titleReveal {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+.Welcomename {
+  margin-top: 10px;
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  color: #e5e7eb;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards 1.6s;
+}
+
+
+.line {
+  width: 0;
+  height: 2px;
+  margin: 22px 0 18px;
+  background: linear-gradient(90deg, transparent, #ffffff, transparent);
+  animation: lineGrow 1.2s ease forwards 2.3s;
+}
+
+@keyframes lineGrow {
+  to { width: 280px; }
+}
+
+
+.role {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #9ca3af;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards 3s;
+}
+
+
+.tagline {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #6b7280;
+  letter-spacing: 1px;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards 3.4s;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
 }

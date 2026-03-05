@@ -1,0 +1,25 @@
+/* [project]/Documents/GitHub/test/src/styles/Counter.module.css [client] (css) */
+.Counter-module__sNSIja__countWrap {
+  color: #fff;
+}
+
+.Counter-module__sNSIja__count {
+  margin-bottom: 10px;
+  font-size: 48px;
+  font-weight: bold;
+  display: block;
+}
+
+.Counter-module__sNSIja__label {
+  color: #fff;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .Counter-module__sNSIja__count {
+    font-size: 35px;
+  }
+}
+
+/*# sourceMappingURL=Documents_GitHub_test_src_styles_Counter_module_css_65f1660e._.single.css.map*/

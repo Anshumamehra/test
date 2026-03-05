@@ -1,0 +1,13 @@
+/* [project]/Documents/GitHub/test/src/styles/ColThreeCards.module.css [client] (css) */
+.ColThreeCards-module__joG2FW__blackgrid:after {
+  content: "";
+  opacity: .5;
+  z-index: 1;
+  background: url("/images/Grid_Pattern_Black.svg") 0 0 / 4rem round fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+/*# sourceMappingURL=Documents_GitHub_test_src_styles_ColThreeCards_module_css_65f1660e._.single.css.map*/

@@ -1,0 +1,222 @@
+/* [project]/Documents/GitHub/test/src/styles/HeroBanner.module.css [client] (css) */
+.HeroBanner-module__OKrGXW__dark__overlay:before {
+  content: "";
+  opacity: .5;
+  z-index: 2;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.HeroBanner-module__OKrGXW__HeroBanner {
+  padding: 142px 0 100px;
+}
+
+/* [project]/Documents/GitHub/test/src/styles/Footer.module.css [client] (css) */
+.Footer-module__4DiEXG__titleWrap p {
+  color: #fff;
+  padding-top: 20px;
+}
+
+.Footer-module__4DiEXG__itemSmall a svg path {
+  transition: all .3s ease-in-out;
+}
+
+.Footer-module__4DiEXG__itemSmall a:hover svg path {
+  fill: #fa198c;
+}
+
+.Footer-module__4DiEXG__itemMedium ul li a {
+  transition: all .3s ease-in-out;
+}
+
+.Footer-module__4DiEXG__itemMedium ul li a:hover {
+  color: #fa198c;
+}
+
+/* [project]/Documents/GitHub/test/src/styles/ResourceFilter.module.css [client] (css) */
+.ResourceFilter-module__etDowq__resourceFilter {
+  font-family: Nunito, sans-serif;
+  overflow: visible;
+}
+
+.ResourceFilter-module__etDowq__navWrapper {
+  position: relative;
+}
+
+.ResourceFilter-module__etDowq__tableTitle {
+  cursor: pointer;
+  background-color: #333;
+  border-radius: 5px;
+  padding: 9px 18px;
+  position: relative;
+}
+
+.ResourceFilter-module__etDowq__tableTitle:after {
+  content: "";
+  border: 2px solid #fff;
+  border-width: 0 2px 2px 0;
+  width: 9px;
+  height: 9px;
+  transition: transform .3s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 22px;
+  transform: translateY(-50%)rotate(45deg);
+}
+
+.ResourceFilter-module__etDowq__tableTitle.ResourceFilter-module__etDowq__active:after {
+  transform: translateY(-50%)rotate(225deg);
+}
+
+.ResourceFilter-module__etDowq__list {
+  z-index: 3;
+  opacity: 0;
+  background-color: #333;
+  border-radius: 5px;
+  max-height: 0;
+  margin-top: 2px;
+  padding: 10px;
+  transition: all .4s ease-in-out;
+  position: absolute;
+  overflow: hidden;
+}
+
+.ResourceFilter-module__etDowq__list.ResourceFilter-module__etDowq__active {
+  opacity: 1;
+}
+
+.ResourceFilter-module__etDowq__list li {
+  color: #fff;
+  cursor: pointer;
+  box-sizing: border-box;
+  width: calc(100% - 6px);
+  margin: 8px 0 7px;
+  padding: 3px 0 3px 6px;
+  font-weight: 700;
+  transition: all .3s;
+}
+
+.ResourceFilter-module__etDowq__list li:hover {
+  background-color: #fa198c;
+}
+
+.ResourceFilter-module__etDowq__list li.ResourceFilter-module__etDowq__active {
+  color: #fa198c;
+  background-color: #fff;
+}
+
+.ResourceFilter-module__etDowq__inputWrapper {
+  border-bottom: .4px solid #ccc;
+  width: 100%;
+  height: 43px;
+  position: relative;
+}
+
+.ResourceFilter-module__etDowq__inputWrapper input {
+  color: #fff;
+  background-color: #0000;
+  border: 0;
+  outline: none;
+  width: 100%;
+  height: 46px;
+  padding: 0 60px 0 20px;
+  font-size: 20px;
+}
+
+.ResourceFilter-module__etDowq__inputWrapper input::placeholder {
+  color: #fff;
+  opacity: .8;
+  font-size: 20px;
+}
+
+.ResourceFilter-module__etDowq__inputWrapper .ResourceFilter-module__etDowq__search-btn {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  bottom: 11px;
+  right: 5px;
+}
+
+.ResourceFilter-module__etDowq__FieldWrap {
+  margin-bottom: 20px;
+  display: none;
+}
+
+.ResourceFilter-module__etDowq__FieldWrap.ResourceFilter-module__etDowq__active {
+  display: block;
+}
+
+.ResourceFilter-module__etDowq__FilterBadge {
+  color: #fff;
+  cursor: pointer;
+  background-color: #202020;
+  border: 1px solid #707070;
+  margin: 0 27px 10px 0;
+  padding: 11px 64px 11px 15px;
+  font-size: 18px;
+  display: inline-block;
+  position: relative;
+}
+
+.ResourceFilter-module__etDowq__FilterBadge:before {
+  content: "";
+  background: url("/images/close-filter.svg") 50% / cover no-repeat;
+  width: 18px;
+  height: 17px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.ResourceFilter-module__etDowq__clearBtn {
+  margin-bottom: 20px;
+  display: none;
+}
+
+.ResourceFilter-module__etDowq__clearBtn.ResourceFilter-module__etDowq__active {
+  display: inline-block;
+}
+
+.ResourceFilter-module__etDowq__noResult {
+  margin-top: 30px;
+  display: none;
+}
+
+.ResourceFilter-module__etDowq__noResult.ResourceFilter-module__etDowq__active {
+  display: block;
+}
+
+.ResourceFilter-module__etDowq__pagination-button {
+  padding-top: 40px;
+  display: none;
+}
+
+.ResourceFilter-module__etDowq__pagination-button.ResourceFilter-module__etDowq__active {
+  display: block;
+}
+
+.ResourceFilter-module__etDowq__paginationItem {
+  color: #fff;
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 30px;
+  font-weight: 600;
+  transition: all .5s ease-in-out;
+  display: inline-block;
+}
+
+.ResourceFilter-module__etDowq__paginationItem.ResourceFilter-module__etDowq__active {
+  color: #fa198c;
+}
+
+.ResourceFilter-module__etDowq__paginationItem.ResourceFilter-module__etDowq__disabled {
+  display: none;
+}
+
+/*# sourceMappingURL=Documents_GitHub_test_src_styles_a105f2eb._.css.map*/

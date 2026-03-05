@@ -1,0 +1,291 @@
+/* [project]/Documents/GitHub/test/src/styles/ColThreeCards.module.css [client] (css) */
+.ColThreeCards-module__joG2FW__blackgrid:after {
+  content: "";
+  opacity: .5;
+  z-index: 1;
+  background: url("/images/Grid_Pattern_Black.svg") 0 0 / 4rem round fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+/* [project]/Documents/GitHub/test/src/styles/HeroBanner.module.css [client] (css) */
+.HeroBanner-module__OKrGXW__dark__overlay:before {
+  content: "";
+  opacity: .5;
+  z-index: 2;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.HeroBanner-module__OKrGXW__HeroBanner {
+  padding: 142px 0 100px;
+}
+
+/* [project]/Documents/GitHub/test/src/styles/ImageWithContent.module.css [client] (css) */
+.ImageWithContent-module__OTgtkq__itemWrap:after {
+  content: "";
+  opacity: 0;
+  pointer-events: none;
+  z-index: 4;
+  background-color: #000;
+  width: 100%;
+  height: 0;
+  transition: all .5s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.ImageWithContent-module__OTgtkq__itemWrap:hover:after {
+  opacity: .5;
+  pointer-events: none;
+  height: 100%;
+}
+
+/* [project]/Documents/GitHub/test/src/styles/Cta.module.css [client] (css) */
+.Cta-module__Tqw75G__whitegrid:after {
+  content: "";
+  opacity: .5;
+  z-index: 2;
+  background: url("/images/Grid_Pattern_White.svg") 0 0 / 4rem round fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+.Cta-module__Tqw75G__dark__overlay:before {
+  content: "";
+  opacity: .5;
+  z-index: 2;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* [project]/Documents/GitHub/test/src/styles/Footer.module.css [client] (css) */
+.Footer-module__4DiEXG__titleWrap p {
+  color: #fff;
+  padding-top: 20px;
+}
+
+.Footer-module__4DiEXG__itemSmall a svg path {
+  transition: all .3s ease-in-out;
+}
+
+.Footer-module__4DiEXG__itemSmall a:hover svg path {
+  fill: #fa198c;
+}
+
+.Footer-module__4DiEXG__itemMedium ul li a {
+  transition: all .3s ease-in-out;
+}
+
+.Footer-module__4DiEXG__itemMedium ul li a:hover {
+  color: #fa198c;
+}
+
+/* [project]/Documents/GitHub/test/src/styles/CaseStudies.module.css [client] (css) */
+.CaseStudies-module___xVkRW__outerWrap {
+  border-top: 1px solid #000;
+}
+
+.CaseStudies-module___xVkRW__outerWrap .CaseStudies-module___xVkRW__hoverImg:after {
+  content: "";
+  opacity: .5;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.CaseStudies-module___xVkRW__touch-device .CaseStudies-module___xVkRW__outerWrap .CaseStudies-module___xVkRW__hoverImg {
+  clip-path: circle(100%);
+}
+
+.CaseStudies-module___xVkRW__outerWrap .CaseStudies-module___xVkRW__hoverImg {
+  clip-path: circle(0);
+  transition: all .4s ease-in-out;
+}
+
+.CaseStudies-module___xVkRW__outerWrap:hover .CaseStudies-module___xVkRW__hoverImg {
+  clip-path: circle(100%);
+  transition: all .6s ease-in-out;
+}
+
+.CaseStudies-module___xVkRW__outerWrap .CaseStudies-module___xVkRW__defaultLogo {
+  opacity: 1;
+  transition-duration: .7s;
+}
+
+.CaseStudies-module___xVkRW__outerWrap .CaseStudies-module___xVkRW__hoverLogo {
+  opacity: 0;
+  transition-duration: .7s;
+  display: none;
+}
+
+.CaseStudies-module___xVkRW__outerWrap:hover .CaseStudies-module___xVkRW__defaultLogo {
+  opacity: 0;
+  display: none;
+}
+
+.CaseStudies-module___xVkRW__outerWrap:hover .CaseStudies-module___xVkRW__hoverLogo {
+  opacity: 1;
+  display: block;
+}
+
+.CaseStudies-module___xVkRW__outerWrap .CaseStudies-module___xVkRW__introWrap h4, .CaseStudies-module___xVkRW__outerWrap .CaseStudies-module___xVkRW__introWrap p {
+  transition-duration: .7s;
+}
+
+.CaseStudies-module___xVkRW__outerWrap:hover .CaseStudies-module___xVkRW__introWrap h4, .CaseStudies-module___xVkRW__outerWrap:hover .CaseStudies-module___xVkRW__introWrap p {
+  color: #fff;
+}
+
+/* [project]/Documents/GitHub/test/src/styles/TabsSection.module.css [client] (css) */
+.TabsSection-module__frlzAW__tabHeader {
+  border-bottom: 2px solid #eee;
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+}
+
+.TabsSection-module__frlzAW__tabButton {
+  cursor: pointer;
+  color: #fff;
+  background: none;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all .3s;
+}
+
+.TabsSection-module__frlzAW__tabButton:hover {
+  color: #fa198c;
+}
+
+.TabsSection-module__frlzAW__tabButton.TabsSection-module__frlzAW__active {
+  color: #fa198c;
+  border-bottom: 2px solid #fa198c;
+  margin-bottom: -2px;
+}
+
+.TabsSection-module__frlzAW__tabContent {
+  margin-top: 30px;
+}
+
+.TabsSection-module__frlzAW__inner-wrap h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.TabsSection-module__frlzAW__inner-wrap p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.TabsSection-module__frlzAW__bg-wrap {
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.TabsSection-module__frlzAW__mobileDropdown {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .TabsSection-module__frlzAW__tabHeader {
+    display: none;
+  }
+
+  .TabsSection-module__frlzAW__mobileDropdown {
+    display: block;
+    position: relative;
+  }
+
+  .TabsSection-module__frlzAW__dropdownToggle {
+    cursor: pointer;
+    color: #000;
+    background: #fff;
+    border: 1px solid #eee;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: 900;
+    display: flex;
+  }
+
+  .TabsSection-module__frlzAW__arrow {
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    width: 12px;
+    height: 12px;
+    transition: transform .2s linear;
+    transform: rotate(45deg);
+  }
+
+  .TabsSection-module__frlzAW__mobileDropdown .TabsSection-module__frlzAW__dropdownToggle:has( + .TabsSection-module__frlzAW__dropdownMenu) .TabsSection-module__frlzAW__arrow {
+    transform: rotate(-135deg);
+  }
+
+  .TabsSection-module__frlzAW__dropdownMenu {
+    z-index: 1000;
+    background: #fff;
+    border-top: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 25px #5b5b5b26;
+  }
+
+  .TabsSection-module__frlzAW__dropdownItem {
+    cursor: pointer;
+    text-align: left;
+    color: #000;
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .TabsSection-module__frlzAW__dropdownItem:hover {
+    background: #f5f5f5;
+  }
+
+  .TabsSection-module__frlzAW__dropdownItem.TabsSection-module__frlzAW__active {
+    color: #fa198c;
+    background: #fafafa;
+  }
+
+  .TabsSection-module__frlzAW__tabContent {
+    padding: 1rem;
+  }
+
+  .TabsSection-module__frlzAW__inner-wrap h1 {
+    font-size: 1.5rem;
+  }
+
+  .TabsSection-module__frlzAW__inner-wrap p {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=Documents_GitHub_test_src_styles_685c8a53._.css.map*/

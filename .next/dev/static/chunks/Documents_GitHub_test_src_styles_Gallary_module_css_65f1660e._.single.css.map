@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Documents/GitHub/test/src/styles/Gallary.module.css"],"sourcesContent":["@media (max-width: 595px) {\n    .item{\n        width: 100% !important;\n    }\n}\n"],"names":[],"mappings":"AAAA;EACI"}}]
+}
