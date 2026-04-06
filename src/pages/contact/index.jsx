@@ -6,7 +6,7 @@ import ChatGemini from "@/components/ChatGemini";
 export default function Contact() {
   const overlay = true;
   const heroBannerData = {
-    heading: "Welcome! We are Clear Digital",
+    heading: "Welcome! Anshuma",
     title: "Contact Us",
     styles: "!h-full",
     src: "/images/Clear-Outline-C-Inisghts.jpg",
