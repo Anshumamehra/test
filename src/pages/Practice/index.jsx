@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 export default function Practice() {
 const overlay = true;
 const heroBannerData = {
-    heading: "Welcome! We are Clear Digital",
+    heading: "Anshu",
     title: "We are Practicing here",
     src: "/images/work-paper.jpg",
     alt: "Working Paper",
