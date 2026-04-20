@@ -1,0 +1,13 @@
+/* [project]/src/styles/SkillBar.module.css [client] (css) */
+.SkillBar-module__F_7uua__item {
+  background-color: #00f;
+}
+
+.SkillBar-module__F_7uua__innerwrap {
+  white-space: nowrap;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  transition: width 1.5s ease-in-out;
+}
+
+/*# sourceMappingURL=src_styles_SkillBar_module_css_65f1660e._.single.css.map*/

@@ -11,8 +11,8 @@ import WelcomeIntro from "@/components/WelcomeIntro";
 export default function Home() {
   const overlay = true;
   const heroBannerData = {
-    heading: "Anshu Mehra",
-    title: "Anshu & Co Digital Solutions",
+    heading: "Anshuma Mehra",
+    title: "Anshu ghhgjhgjhjhjh & Co Digital Solutions",
     src: "/images/Clear-Digital-Home-Hero_400kbps.mp4",
     video: true,
   };
