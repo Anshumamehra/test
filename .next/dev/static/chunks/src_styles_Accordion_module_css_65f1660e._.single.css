@@ -1,0 +1,34 @@
+/* [project]/src/styles/Accordion.module.css [client] (css) */
+.Accordion-module__4cpSjq__accordionItem:last-child {
+  margin-bottom: 0;
+}
+
+.Accordion-module__4cpSjq__noBorder {
+  border-bottom: none;
+}
+
+.Accordion-module__4cpSjq__title .Accordion-module__4cpSjq__arrow {
+  border: 3px solid #fff;
+  border-width: 0 3px 3px 0;
+  width: 15px;
+  height: 15px;
+  transition: transform .3s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: rotate(45deg);
+}
+
+.Accordion-module__4cpSjq__title.Accordion-module__4cpSjq__active .Accordion-module__4cpSjq__arrow {
+  transform: rotate(-135deg);
+}
+
+.Accordion-module__4cpSjq__panel p {
+  padding-top: 30px;
+}
+
+.Accordion-module__4cpSjq__panel p:last-child {
+  padding-bottom: 0;
+}
+
+/*# sourceMappingURL=src_styles_Accordion_module_css_65f1660e._.single.css.map*/

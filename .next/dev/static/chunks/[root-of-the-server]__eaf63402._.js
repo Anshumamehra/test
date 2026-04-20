@@ -2622,7 +2622,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$
 function Practice() {
     const overlay = true;
     const heroBannerData = {
-        heading: "Anshu",
+        heading: "Anshu mehra",
         title: "We are Practicing here",
         src: "/images/work-paper.jpg",
         alt: "Working Paper",

@@ -12,7 +12,7 @@ export default function Home() {
   const overlay = true;
   const heroBannerData = {
     heading: "Anshuma Mehra",
-    title: "Anshu ghhgjhgjhjhjh & Co Digital Solutions",
+    title: "Anshu & Co Digital Solutions",
     src: "/images/Clear-Digital-Home-Hero_400kbps.mp4",
     video: true,
   };

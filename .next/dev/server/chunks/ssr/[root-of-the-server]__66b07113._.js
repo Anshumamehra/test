@@ -1905,7 +1905,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Welcome
 function Home() {
     const overlay = true;
     const heroBannerData = {
-        heading: "Anshu Mehra",
+        heading: "Anshuma Mehra",
         title: "Anshu & Co Digital Solutions",
         src: "/images/Clear-Digital-Home-Hero_400kbps.mp4",
         video: true
